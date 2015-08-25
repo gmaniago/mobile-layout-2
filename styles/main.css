@@ -1,0 +1,124 @@
+header {
+	height: 3.12em;
+	background-color: #118BC0;
+
+}
+.main {
+	height: 69.43em;
+	background-color: #344051;
+	padding-bottom: 9em;
+}
+
+.messageone {
+	color: white;
+	font-family: Helvetica;
+	text-align: center;
+	font-size: 2em;
+	padding-top: 6em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.messagetwo {
+	color: white;
+	font-family: Helvetica;
+	text-align: center;
+	font-size: 1.1em;
+	padding-top: 2em;
+	padding-bottom: 1.7em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.mainbutton { 
+	background-color: #1E8CBE;
+	padding-top: 2em;
+	border: .6em solid #212833;
+	margin: 0 auto;
+	width: 14.365em;
+	height: 2em;
+	margin-bottom: 14.635em;
+}
+
+.arrow {
+	background-color: white;
+	width: 3.2em;
+	height: 1.3em;
+	margin: 0 auto;
+	margin-bottom: 9.375em;
+}
+
+.feature {
+	background-color: white;
+	width: 20.938em;
+	height:5em;
+	margin: 0 auto;
+	margin-bottom: 2em;
+}
+
+.blocktwo {
+	height: 13.125em;
+	background-color: #E8F0F5;
+}
+
+.blockthree {
+	background-color: #CED0D4;
+	border: 0.625em solid #CED0D4;
+}
+
+.insideblock { 
+	background-color: #fff;
+	height: 12.5em;
+	margin-top: 2.5em;
+	padding-top: 2.5em;
+	margin-bottom: 2.5em;
+}
+
+.blockfour {
+	height: 7.3em;
+	background-color: #E8F0F5;
+	margin: 0 auto;
+	padding-top: 5.625em;
+}
+
+.create {
+	height: 2.5em;
+	background-color: #118BC0;
+	width: 16em;
+	margin: 0 auto;
+	padding-bottom: 1.5em;
+
+}
+
+.blockfive {
+	background-color: #000000;
+	height: 6em;
+	color: white;
+	text-decoration: none;
+	padding: 3em 5em;
+}
+
+footer {
+	text-align: center;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+ 
+footer a {
+	list-style: none;
+	width: 1em;
+	line-height: 3em;
+	padding-left: .5em;
+}
+
+.auto {
+	background-color: white;
+	height: 1.5em;
+	width: 10em;
+	margin: 0 auto;
+}
+
+
+
+
+
