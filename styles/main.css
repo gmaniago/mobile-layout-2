@@ -4,13 +4,20 @@ header {
 
 }
 
-.img {
+img {
+	height: 100%;
+	width: 100%;
+}
+.logo {
 	background-color: white;
 	height: 2.5em;
 	width: 2.5em;
 	float: left;
 	margin: .7em;
+	background-image: url(../images/logo.png);
+	background-size: contain;
 }
+
 .wordpress {
 	height: 2.5em;
 	width: 8em;
@@ -34,17 +41,18 @@ header {
 
 }
 .main {
-	height: 69.43em;
-	background-color: #344051;
+	height: 75em;
+	background-image: url(../images/crowd.jpg);
 	padding-bottom: 9em;
 	text-align: center;
+	background-size: cover;
 }
 
 .messageone {
 	color: white;
 	font-family: Helvetica;
 	text-align: center;
-	font-size: 2em;
+	font-size: 2.3em;
 	padding-top: 6em;
 	padding-left: 2em;
 	padding-right: 2em;
@@ -52,9 +60,9 @@ header {
 
 .messagetwo {
 	color: white;
-	font-family: Helvetica;
+	font-family: sans-serif;
 	text-align: center;
-	font-size: 1.1em;
+	font-size: 1.4em;
 	padding-top: 2em;
 	padding-bottom: 1.7em;
 	padding-left: 2em;
@@ -64,28 +72,35 @@ header {
 .mainbutton { 
 	background-color: #1E8CBE;
 	padding-top: 1em;
-	border: .6em solid #212833;
 	margin: auto;
 	width: 14.365em;
 	height: 2.5em;
-	margin-bottom: 14.635em;
 	color: white;
 	text-align: center;
 	font-size: 22px;
 	font-family: sans-serif;
+
+}
+
+.wrapper {
+	width: 20em;
+	padding: 0.625em;
+	margin-right: auto;
+	margin-left: auto;
+	background: rgba(0, 0, 0, 0.3);
+	margin-bottom: 20em;
 }
 
 .arrow {
-	background-color: white;
 	width: 3.2em;
 	height: 1.3em;
 	margin: 0 auto;
 	margin-bottom: 9.375em;
+	color: white;
 }
 
 
 .feature {
-	background-color: #344051;
 	width: 19em;
 	height:5em;
 	margin: 0 auto;
@@ -95,12 +110,10 @@ header {
 .box1 {
 	height: 5em;
 	width: 4em;
-  	background-color: white;
 	float: left;
 }
 
 .box2 {
-	background-color: #344051;
 	height: 5em;
 	width: 19em;
 	margin-left: 4.5em;
@@ -122,7 +135,6 @@ header {
   	color: white;
 }
 .feature2 {
-	background-color: #344051;
 	width: 19em;
 	height:5em;
 	margin: 0 auto;
@@ -130,7 +142,6 @@ header {
 }
 
 .box3 {
-	background-color: white;
 	height: 5em;
 	width: 4em;
 	margin-top: .7em;
@@ -144,6 +155,12 @@ header {
 	font-size: 2em;
 	text-align: center;
 	padding: 2em;
+}
+
+.blocktwotext {
+	color:#31415A;
+	font-family: sans-serif;
+	font-weight: lighter;
 }
 
 .blockthree {
@@ -163,22 +180,28 @@ header {
 }
 
 .icon {
-	background-color: #C7D2D8;
 	margin: 0 auto;
 	height: 5em;
-	width: 5em;
+	width: 4em;
 	margin-bottom: 1em;
 	box-sizing: border-box;
+	padding-bottom: 1em;
 
 }
+.icon > img {
+	height: 4em;
+	width: 4em;
+}
+.circle {
+	border: .7em solid #CED0D4;
+	border-radius: 100%;
+	background-color: #CED0D4;
 
+}
 .title {
-	margin-top: 2em;
-	margin: 0 auto;
-	height: 2em;
-	margin-bottom: 1em;
 	color: #426277;
 	font-weight: bold;
+	font-family: sans-serif;
 	text-align: center; 
 }
 
@@ -188,7 +211,9 @@ header {
 	height: 4em;
 	width: 38em;
 	color: #344050;
-	font-size: 1.1em;
+	font-size: 1.5em;
+	font-family: sans-serif;
+	text-align: center;
 }
 .blockfour {
 	height: 12em;
@@ -199,7 +224,9 @@ header {
 }
 
 .text {
-	color: black;
+	color: #31415A;
+	font-weight: lighter;
+	font-family: sans-serif;
 	font-size: 2em;
 	text-align: center;
 	display: block;
@@ -242,8 +269,7 @@ footer a {
 }
 
 .auto {
-	background-color: white;
-	height: 1.5em;
+	height: 2em;
 	width: 10em;
 	margin: 0 auto;
 }
