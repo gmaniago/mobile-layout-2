@@ -9,14 +9,17 @@ header {
 	height: 2.5em;
 	width: 2.5em;
 	float: left;
-	margin: 1em;
+	margin: .7em;
 }
 .wordpress {
-	background-color: white;
 	height: 2.5em;
 	width: 8em;
 	float: left;
 	margin: 1em;
+	color: white;
+	font-family: Helvetica;
+	font-size: 1.3em;
+
 }
 
 .login {
@@ -24,6 +27,10 @@ header {
 	float: right;
 	height: 4em;
 	width: 6em;
+	text-align: center;
+	color: white;
+	box-sizing: border-box;
+	padding: 1.2em;
 
 }
 .main {
@@ -55,12 +62,16 @@ header {
 
 .mainbutton { 
 	background-color: #1E8CBE;
-	padding-top: 2em;
+	padding-top: 1em;
 	border: .6em solid #212833;
-	margin: 0 auto;
+	margin: auto;
 	width: 14.365em;
-	height: 2em;
+	height: 2.5em;
 	margin-bottom: 14.635em;
+	color: white;
+	text-align: center;
+	font-size: 22px;
+	font-family: sans-serif;
 }
 
 .arrow {
@@ -95,9 +106,21 @@ header {
 	margin-bottom: 1em;
 	margin-right: .4em;
 }
+
+.titlebox {
+	float: left;
+	font-family: sans-serif;
+	color: white;
+	margin-bottom: .8em;
+	font-size: 1em;
+}
 .blocktwo {
-	height: 13.125em;
+	height: 8.125em;
 	background-color: #E8F0F5;
+	box-sizing: border-box;
+	font-size: 2em;
+	text-align: center;
+	padding: 2em;
 }
 
 .blockthree {
@@ -108,9 +131,12 @@ header {
 .insideblock { 
 	background-color: #fff;
 	height: 16em;
+	margin-bottom: auto
 	margin-top: 2.5em;
 	padding-top: 2.5em;
 	margin-bottom: 2.5em;
+	box-sizing: border-box;
+	text-align: center;
 }
 
 .icon {
@@ -125,34 +151,51 @@ header {
 
 .title {
 	margin-top: 2em;
-	background-color: #C7D2D8;
 	margin: 0 auto;
 	height: 2em;
 	width: 38em;
 	margin-bottom: 1em;
+	color: #426277;
+	font-weight: bold;
+	text-align: center;
 }
 
 .sentence {
 	margin-top: 2em;
-	background-color: #C7D2D8;
 	margin: 0 auto;
 	height: 4em;
 	width: 38em;
+	color: #344050;
+	font-size: 1.1em;
 }
 .blockfour {
-	height: 7.3em;
-	background-color: #E8F0F5;
+	height: 12em;
 	margin: 0 auto;
-	padding-top: 5.625em;
+	padding-top: 2em;
+	background-color: #E8F0F5;
+
+}
+
+.text {
+	color: black;
+	font-size: 2em;
+	text-align: center;
+	display: block;
+
 }
 
 .create {
 	height: 2.5em;
 	background-color: #118BC0;
-	width: 16em;
+	width: 12em;
 	margin: 0 auto;
-	padding-bottom: 1.5em;
-
+	margin-top: 2em;
+	padding-bottom: 1em;
+	padding-top: .7em;
+	color: white;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 1.7em;
 }
 
 .blockfive {
