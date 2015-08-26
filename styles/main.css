@@ -176,11 +176,10 @@ header {
 	margin-top: 2em;
 	margin: 0 auto;
 	height: 2em;
-	width: 38em;
 	margin-bottom: 1em;
 	color: #426277;
 	font-weight: bold;
-	text-align: center;
+	text-align: center; 
 }
 
 .sentence {
