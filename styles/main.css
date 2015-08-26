@@ -37,6 +37,7 @@ header {
 	height: 69.43em;
 	background-color: #344051;
 	padding-bottom: 9em;
+	text-align: center;
 }
 
 .messageone {
@@ -82,38 +83,60 @@ header {
 	margin-bottom: 9.375em;
 }
 
+
 .feature {
-	background-color: white;
-	width: 20.938em;
+	background-color: #344051;
+	width: 19em;
 	height:5em;
 	margin: 0 auto;
 	margin-bottom: 2em;
 }
 
 .box1 {
+	height: 5em;
+	width: 4em;
+  	background-color: white;
 	float: left;
-	height: 4em;
-	width: 3.5em;
-	background-color: #616E7F;
-	margin-top: 1em ;
 }
 
 .box2 {
-	float: right;
-	height: 4em;
-	width: 16.5em;
-	background-color: #616E7F;
-	margin-bottom: 1em;
-	margin-right: .4em;
+	background-color: #344051;
+	height: 5em;
+	width: 19em;
+	margin-left: 4.5em;
 }
 
 .titlebox {
-	float: left;
-	font-family: sans-serif;
 	color: white;
-	margin-bottom: .8em;
-	font-size: 1em;
+	font-family: sans-serif;
+	font-size: 1.3em;
+	margin-top: .7em;
+	float: left;
 }
+
+.textbox {
+	margin-top: 10px;
+	float: left;
+  	font-family: sans-serif;
+	font-weight: lighter;
+  	color: white;
+}
+.feature2 {
+	background-color: #344051;
+	width: 19em;
+	height:5em;
+	margin: 0 auto;
+	margin-bottom: 2em;
+}
+
+.box3 {
+	background-color: white;
+	height: 5em;
+	width: 4em;
+	margin-top: .7em;
+	float: left;
+}
+
 .blocktwo {
 	height: 8.125em;
 	background-color: #E8F0F5;
@@ -225,8 +248,3 @@ footer a {
 	width: 10em;
 	margin: 0 auto;
 }
-
-
-
-
-
